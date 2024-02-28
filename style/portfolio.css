@@ -48,7 +48,7 @@ nav
     border: 0;
     font-size: 20px;
     font-style: normal;
-    padding: 15px 35px;
+    padding: 20px 35px;
 }
 nav > ul{
     display: flex;
@@ -105,11 +105,100 @@ nav li{
 
 /* main section styles */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+ 
+
+/* about section styles */
 .about
 {
     padding: 130px;
     background-color: #fff8f3;
     border-radius: 10px;
     margin: 130px 0;
+}
+.about-info-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info
+{
+    text-align: center;  
+}
+#wid-description
+{
+    padding: 30px 150px;
+}
+
+.skill-container
+{
+    display: flex;
+    gap:24px; 
+    justify-content: space-around;
+}
+.skill
+{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff8f3;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.6);
+    
 
 }
+.skill-description
+{
+    padding: ;
+}
+main section{
+    margin-top: 130px;
+}
+.resume-colomn-tittle{
+    color:#474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700px;
+}
+.resuem-container
+{
+    display: flex;
+    gap: 50px;
+}
+#button-cv
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    background:#fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.footer-colomn
+{
+    width: 50%;
+}
+
+.social-link a
+{
+    margin-right: 25px;
+}
+
+.contact input,textarea
+{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
